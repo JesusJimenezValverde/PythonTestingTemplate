@@ -1,0 +1,11 @@
+[tool.pytest.ini_options]
+pythonpath = "."
+markers = [
+    "smoke: essential tests to run on every build",
+    "regression: detailed tests to run less frequently",
+]
+addopts = """
+    -v
+    --alluredir=allure-results
+    --clean-alluredir
+"""
