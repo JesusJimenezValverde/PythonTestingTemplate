@@ -1,4 +1,3 @@
 .venv
-.idea
-allure-results
->>>>>>> 8964711 ([Fix] added gitignore)
+.idea/
+allure-results/
