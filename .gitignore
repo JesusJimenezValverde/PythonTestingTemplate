@@ -1,3 +1,9 @@
-.venv
+.venv/
 .idea/
 allure-results/
+
+# Byte-compiled / optimized / C extension files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
